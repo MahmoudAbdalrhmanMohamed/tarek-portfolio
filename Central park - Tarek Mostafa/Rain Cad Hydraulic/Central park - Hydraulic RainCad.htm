@@ -1,0 +1,914 @@
+<html>
+<head>
+<title>Hydraulics Details</title>
+<style>
+td.pageheader {font-size: 140%; background: #ffffff; font-color: #000000;}
+td.sectionheader {font-size: 110%; background: #ffffff; font-color: #000000;}
+td.tableheader {font-size: 85%; background: #ffffff; font-color: #000000;}
+td.colheader {font-size: 70%; background: #a0a0a0; font-color: #ffffff;}
+td.smallnorm {font-size: 70%; font-color: #000000;}
+td.datanormal {font-size: 70%; background: #ffffff; font-color: #000000;}
+td.datahighlight {font-size: 70%; background: #d0d0e0; font-color: #000000;}
+table.navVisible {display: inherit; background-color: #fbfbff;}
+table.navHidden {display: none; background-color: #fbfbff;}
+BODY
+{
+font-family: Verdana, Helvetica, Arial;
+background-color: #ffffff;
+text-color: #000000;
+font-size: 100%;
+}
+</style>
+</head>    
+<body>
+
+<script language="javascript">
+	function showToc(bTable, bImage)
+	{
+		if (bTable.className == "navHidden")
+		{
+			bTable.className = "navVisible";
+			bImage.src = imgMinus.src;
+		}
+		else
+		{
+			bTable.className = "navHidden";
+			bImage.src = imgPlus.src;
+		}
+	}
+</script>
+<table border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr><td class=pageheader align=center width=650 colspan=2><b>Hydraulics Data</b></td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td class=smallnorm nowrap><b>Drawing Name:&nbsp;&nbsp;</b></td><td class=smallnorm width=100%>Sample Soft Hydraulic RainCad.dwg</td></tr>
+    <tr><td class=smallnorm nowrap valign="top"><b>Runset:&nbsp;&nbsp;</b></td><td class=smallnorm width=100%>1-2</td></tr>
+    <tr><td class=smallnorm nowrap><b>Date Generated:&nbsp;&nbsp;</b></td><td class=smallnorm width=100%>3/1/2026 12:22 AM</td></tr>
+</table>
+<br><br>
+<table border=0 cellspacing=1 cellpadding=1 width=650 style="display: none;">
+    <tr>
+        <td class=sectionheader><img id="imgPlus" src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_plus.gif" width="16" height="16" border="0">Show Data Table</td>
+        <td class=sectionheader><img id="imgMinus" src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_minus.gif" width="16" height="16" border="0">Close Data Table</td>
+    </tr>
+</table>
+
+<table border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=sectionheader width="15"><img id="imgWs1" src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_minus.gif" width="16" height="16" border="0" onclick="showToc(tableWs1, imgWs1)" style="cursor: hand;"></td>
+        <td class=sectionheader width="635"><b>Water Source 1</b></td>
+    </tr>
+</table>
+<table id="tableWs1" border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr><td colspan=2><hr align=left width=650 size=5 color=#000000></td></tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Description:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>New Water Source</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Type:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>Pump</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Pump Pressure:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+</table>
+<br><br>
+<table border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=sectionheader width="15"><img src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_minus.gif" id="imgMeanSystem" width="16" height="16" border="0" style="cursor: hand;" onclick="showToc(tableMeanSystem, imgMeanSystem)"></td>
+        <td class=sectionheader width="635"><b>Mean System</b></td>
+    </tr>
+</table>
+<table id="tableMeanSystem" border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr><td colspan=2><hr align=left width=650 size=5 color=#000000></td></tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Static Pressure:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Service Line Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Meter Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Backflow Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Master Valve Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Master Filter Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+</table>
+<br><br>
+<table border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=tableheader width="15"><img src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_minus.gif" id="imgMainlinePipeRuns" width="16" height="16" border="0" style="cursor: hand;" onclick="showToc(tableMainlinePipeRuns, imgMainlinePipeRuns)"></td>
+        <td class=tableheader width="635"><b>Mainline Pipe Runs</b></td>
+    </tr>
+</table>
+<table id="tableMainlinePipeRuns" border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=colheader nowrap><b>Nodes</b></td>
+        <td class=colheader nowrap><b>Description</b></td>
+        <td class=colheader nowrap><b>Length (m)</b></td>
+        <td class=colheader nowrap><b>Flow (m^3/h)</b></td>
+        <td class=colheader nowrap><b>Velocity (m/s)</b></td>
+        <td class=colheader nowrap><b>Loss (bars)</b></td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>1>3</td>
+        <td class=datanormal nowrap>75mm</td>
+        <td class=datanormal nowrap>48.352</td>
+        <td class=datanormal nowrap>14.42</td>
+        <td class=datanormal nowrap>1.109</td>
+        <td class=datanormal nowrap>0.085</td>
+    </tr>
+</table>
+<br><br>
+<table border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=sectionheader width="15"><img src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_minus.gif" id="imgZone3DF5" width="16" height="16" border="0" style="cursor: hand;" onclick="showToc(tableZone3DF5, imgZone3DF5)"></td>
+        <td class=sectionheader width="635"><b>Zone:  1-2 @ 14.42 (m^3/h)</b></td>
+    </tr>
+</table>
+<table id="tableZone3DF5" border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr><td colspan=2><hr align=left width=650 size=5 color=#000000></td></tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Valve Description:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>Rain Bird 150PESB-R</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Mainline Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0.085 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Valve Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0.227 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Filter Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Lateral Loss:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0.1 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Elevation:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>0 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Sprinkler Requirement:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>2.1 (bars)</td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Total Design Pressure:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>2.512 (bars)</td>
+    </tr>
+    <tr>
+        <td class=smallnorm nowrap><b>Residual Pressure:&nbsp;&nbsp;</b></td>
+        <td class=smallnorm width=100%>-2.512 (bars)</td>
+    </tr>
+</table>
+<br><br>
+<table border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=tableheader width="15"><img src="C:\Program Files\Software Republic\RC 2020 AutoCAD\data\misc\node_report_minus.gif" id="imgZonePipe3DF5" width="16" height="16" border="0" style="cursor: hand;" onclick="showToc(tableZonePipe3DF5, imgZonePipe3DF5)"></td>
+        <td class=tableheader width="635"><b>Zone Lateral Pipe</b></td>
+    </tr>
+</table>
+<table id="tableZonePipe3DF5" border=0 cellspacing=1 cellpadding=1 width=650>
+    <tr>
+        <td class=colheader nowrap><b>Nodes</b></td>
+        <td class=colheader nowrap><b>Pipe Size</b></td>
+        <td class=colheader nowrap><b>Length (m)</b></td>
+        <td class=colheader nowrap><b>Flow (m^3/h)</b></td>
+        <td class=colheader nowrap><b>Velocity (m/s)</b></td>
+        <td class=colheader nowrap><b>Loss (bars)</b></td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>1-2</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>1.03</td>
+        <td class=datanormal nowrap>5.13</td>
+        <td class=datanormal nowrap>0.888</td>
+        <td class=datanormal nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>3-4</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.809</td>
+        <td class=datahighlight nowrap>2.36</td>
+        <td class=datahighlight nowrap>1.035</td>
+        <td class=datahighlight nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>5-3</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.245</td>
+        <td class=datanormal nowrap>2.41</td>
+        <td class=datanormal nowrap>1.057</td>
+        <td class=datanormal nowrap>0.006</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>6-7</td>
+        <td class=datahighlight nowrap>50mm</td>
+        <td class=datahighlight nowrap>1.247</td>
+        <td class=datahighlight nowrap>4.78</td>
+        <td class=datahighlight nowrap>0.827</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>8-6</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>1.193</td>
+        <td class=datanormal nowrap>4.83</td>
+        <td class=datanormal nowrap>0.836</td>
+        <td class=datanormal nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>9-8</td>
+        <td class=datahighlight nowrap>50mm</td>
+        <td class=datahighlight nowrap>1.149</td>
+        <td class=datahighlight nowrap>4.88</td>
+        <td class=datahighlight nowrap>0.845</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>10-11</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>0.4</td>
+        <td class=datanormal nowrap>5.81</td>
+        <td class=datanormal nowrap>1.006</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>12-13</td>
+        <td class=datahighlight nowrap>75mm</td>
+        <td class=datahighlight nowrap>0.388</td>
+        <td class=datahighlight nowrap>14.42</td>
+        <td class=datahighlight nowrap>1.109</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>7-14</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>1.705</td>
+        <td class=datanormal nowrap>4.73</td>
+        <td class=datanormal nowrap>0.819</td>
+        <td class=datanormal nowrap>0.003</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>1-9</td>
+        <td class=datahighlight nowrap>50mm</td>
+        <td class=datahighlight nowrap>1.686</td>
+        <td class=datahighlight nowrap>4.93</td>
+        <td class=datahighlight nowrap>0.853</td>
+        <td class=datahighlight nowrap>0.003</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>15-5</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.339</td>
+        <td class=datanormal nowrap>2.46</td>
+        <td class=datanormal nowrap>1.079</td>
+        <td class=datanormal nowrap>0.006</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>16-15</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.283</td>
+        <td class=datahighlight nowrap>2.51</td>
+        <td class=datahighlight nowrap>1.101</td>
+        <td class=datahighlight nowrap>0.006</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>11-16</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.868</td>
+        <td class=datanormal nowrap>2.56</td>
+        <td class=datanormal nowrap>1.123</td>
+        <td class=datanormal nowrap>0.009</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>17-18</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>4.452</td>
+        <td class=datahighlight nowrap>0.3</td>
+        <td class=datahighlight nowrap>0.132</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>19-17</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.865</td>
+        <td class=datanormal nowrap>0.72</td>
+        <td class=datanormal nowrap>0.316</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>20-21</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.044</td>
+        <td class=datahighlight nowrap>0.61</td>
+        <td class=datahighlight nowrap>0.267</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>22-23</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.24</td>
+        <td class=datanormal nowrap>1.21</td>
+        <td class=datanormal nowrap>0.531</td>
+        <td class=datanormal nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>24-22</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.939</td>
+        <td class=datahighlight nowrap>1.21</td>
+        <td class=datahighlight nowrap>0.531</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>25-24</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.052</td>
+        <td class=datanormal nowrap>1.01</td>
+        <td class=datanormal nowrap>0.443</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>26-25</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.808</td>
+        <td class=datahighlight nowrap>1.01</td>
+        <td class=datahighlight nowrap>0.443</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>27-26</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>0.99</td>
+        <td class=datanormal nowrap>0.81</td>
+        <td class=datanormal nowrap>0.355</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>28-27</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.832</td>
+        <td class=datahighlight nowrap>0.81</td>
+        <td class=datahighlight nowrap>0.355</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>29-28</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.025</td>
+        <td class=datanormal nowrap>0.61</td>
+        <td class=datanormal nowrap>0.267</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>30-29</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.967</td>
+        <td class=datahighlight nowrap>0.61</td>
+        <td class=datahighlight nowrap>0.267</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>31-30</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.168</td>
+        <td class=datanormal nowrap>0.3</td>
+        <td class=datanormal nowrap>0.132</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>32-31</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.067</td>
+        <td class=datahighlight nowrap>0.3</td>
+        <td class=datahighlight nowrap>0.132</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>33-32</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.334</td>
+        <td class=datanormal nowrap>0.1</td>
+        <td class=datanormal nowrap>0.044</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>34-33</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.24</td>
+        <td class=datahighlight nowrap>0.1</td>
+        <td class=datahighlight nowrap>0.044</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>35-19</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.993</td>
+        <td class=datanormal nowrap>0.72</td>
+        <td class=datanormal nowrap>0.316</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>36-35</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.579</td>
+        <td class=datahighlight nowrap>1.12</td>
+        <td class=datahighlight nowrap>0.491</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>37-36</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>2.634</td>
+        <td class=datanormal nowrap>4.22</td>
+        <td class=datanormal nowrap>0.731</td>
+        <td class=datanormal nowrap>0.003</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>14-37</td>
+        <td class=datahighlight nowrap>50mm</td>
+        <td class=datahighlight nowrap>2.34</td>
+        <td class=datahighlight nowrap>4.53</td>
+        <td class=datahighlight nowrap>0.784</td>
+        <td class=datahighlight nowrap>0.003</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>38-39</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.51</td>
+        <td class=datanormal nowrap>3.27</td>
+        <td class=datanormal nowrap>1.434</td>
+        <td class=datanormal nowrap>0.012</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>40-38</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>2.756</td>
+        <td class=datahighlight nowrap>3.06</td>
+        <td class=datahighlight nowrap>1.342</td>
+        <td class=datahighlight nowrap>0.019</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>41-40</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.563</td>
+        <td class=datanormal nowrap>2.75</td>
+        <td class=datanormal nowrap>1.206</td>
+        <td class=datanormal nowrap>0.009</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>42-41</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.539</td>
+        <td class=datahighlight nowrap>2.75</td>
+        <td class=datahighlight nowrap>1.206</td>
+        <td class=datahighlight nowrap>0.009</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>43-42</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.242</td>
+        <td class=datanormal nowrap>2.35</td>
+        <td class=datanormal nowrap>1.03</td>
+        <td class=datanormal nowrap>0.005</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>44-45</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.717</td>
+        <td class=datahighlight nowrap>1.81</td>
+        <td class=datahighlight nowrap>0.794</td>
+        <td class=datahighlight nowrap>0.004</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>46-44</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.568</td>
+        <td class=datanormal nowrap>1.41</td>
+        <td class=datanormal nowrap>0.618</td>
+        <td class=datanormal nowrap>0.003</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>23-46</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.111</td>
+        <td class=datahighlight nowrap>1.41</td>
+        <td class=datahighlight nowrap>0.618</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>47-48</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>0.895</td>
+        <td class=datanormal nowrap>0.21</td>
+        <td class=datanormal nowrap>0.092</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>49-50</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>4.035</td>
+        <td class=datahighlight nowrap>2.03</td>
+        <td class=datahighlight nowrap>0.89</td>
+        <td class=datahighlight nowrap>0.013</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>51-49</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>3.854</td>
+        <td class=datanormal nowrap>1.61</td>
+        <td class=datanormal nowrap>0.706</td>
+        <td class=datanormal nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>52-51</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>2.889</td>
+        <td class=datahighlight nowrap>1.34</td>
+        <td class=datahighlight nowrap>0.588</td>
+        <td class=datahighlight nowrap>0.004</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>53-52</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>2.029</td>
+        <td class=datanormal nowrap>1.13</td>
+        <td class=datanormal nowrap>0.496</td>
+        <td class=datanormal nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>54-53</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.908</td>
+        <td class=datahighlight nowrap>1</td>
+        <td class=datahighlight nowrap>0.439</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>55-54</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.883</td>
+        <td class=datanormal nowrap>0.87</td>
+        <td class=datanormal nowrap>0.382</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>56-55</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.892</td>
+        <td class=datahighlight nowrap>0.74</td>
+        <td class=datahighlight nowrap>0.324</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>57-56</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>2.073</td>
+        <td class=datanormal nowrap>0.61</td>
+        <td class=datanormal nowrap>0.267</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>58-50</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>3.619</td>
+        <td class=datahighlight nowrap>2.03</td>
+        <td class=datahighlight nowrap>0.89</td>
+        <td class=datahighlight nowrap>0.012</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>59-60</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.636</td>
+        <td class=datanormal nowrap>0.61</td>
+        <td class=datanormal nowrap>0.267</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>61-59</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>2.147</td>
+        <td class=datahighlight nowrap>1.03</td>
+        <td class=datahighlight nowrap>0.452</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>62-61</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>2.194</td>
+        <td class=datanormal nowrap>1.03</td>
+        <td class=datanormal nowrap>0.452</td>
+        <td class=datanormal nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>63-62</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>3.705</td>
+        <td class=datahighlight nowrap>1.45</td>
+        <td class=datahighlight nowrap>0.636</td>
+        <td class=datahighlight nowrap>0.006</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>64-63</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>3.361</td>
+        <td class=datanormal nowrap>1.85</td>
+        <td class=datanormal nowrap>0.811</td>
+        <td class=datanormal nowrap>0.009</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>4-64</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>2.271</td>
+        <td class=datahighlight nowrap>2.16</td>
+        <td class=datahighlight nowrap>0.947</td>
+        <td class=datahighlight nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>65-11</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.177</td>
+        <td class=datanormal nowrap>3.05</td>
+        <td class=datanormal nowrap>1.337</td>
+        <td class=datanormal nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>66-65</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.182</td>
+        <td class=datahighlight nowrap>3.05</td>
+        <td class=datahighlight nowrap>1.337</td>
+        <td class=datahighlight nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>67-66</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.401</td>
+        <td class=datanormal nowrap>2.74</td>
+        <td class=datanormal nowrap>1.202</td>
+        <td class=datanormal nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>68-67</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.525</td>
+        <td class=datahighlight nowrap>2.74</td>
+        <td class=datahighlight nowrap>1.202</td>
+        <td class=datahighlight nowrap>0.009</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>69-68</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.726</td>
+        <td class=datanormal nowrap>2.43</td>
+        <td class=datanormal nowrap>1.066</td>
+        <td class=datanormal nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>58-69</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.749</td>
+        <td class=datahighlight nowrap>2.43</td>
+        <td class=datahighlight nowrap>1.066</td>
+        <td class=datahighlight nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>70-71</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.867</td>
+        <td class=datanormal nowrap>0.61</td>
+        <td class=datanormal nowrap>0.267</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>72-70</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>2.014</td>
+        <td class=datahighlight nowrap>0.61</td>
+        <td class=datahighlight nowrap>0.267</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>73-72</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>0.958</td>
+        <td class=datanormal nowrap>1.45</td>
+        <td class=datanormal nowrap>0.636</td>
+        <td class=datanormal nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>74-75</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.85</td>
+        <td class=datahighlight nowrap>0.27</td>
+        <td class=datahighlight nowrap>0.118</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>76-77</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.042</td>
+        <td class=datanormal nowrap>0.54</td>
+        <td class=datanormal nowrap>0.237</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>78-73</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>3.645</td>
+        <td class=datahighlight nowrap>0.84</td>
+        <td class=datahighlight nowrap>0.368</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>79-43</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>3.356</td>
+        <td class=datanormal nowrap>0.54</td>
+        <td class=datanormal nowrap>0.237</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>80-81</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.03</td>
+        <td class=datahighlight nowrap>0.13</td>
+        <td class=datahighlight nowrap>0.057</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>82-83</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>0.837</td>
+        <td class=datanormal nowrap>0.13</td>
+        <td class=datanormal nowrap>0.057</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>84-82</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.892</td>
+        <td class=datahighlight nowrap>0.4</td>
+        <td class=datahighlight nowrap>0.175</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>57-85</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.079</td>
+        <td class=datanormal nowrap>0.4</td>
+        <td class=datanormal nowrap>0.175</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>13-2</td>
+        <td class=datahighlight nowrap>63mm</td>
+        <td class=datahighlight nowrap>0.385</td>
+        <td class=datahighlight nowrap>10.94</td>
+        <td class=datahighlight nowrap>1.191</td>
+        <td class=datahighlight nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>86-10</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>0.378</td>
+        <td class=datanormal nowrap>5.81</td>
+        <td class=datanormal nowrap>1.006</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>87-86</td>
+        <td class=datahighlight nowrap>50mm</td>
+        <td class=datahighlight nowrap>0.943</td>
+        <td class=datahighlight nowrap>5.81</td>
+        <td class=datahighlight nowrap>1.006</td>
+        <td class=datahighlight nowrap>0.002</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>2-87</td>
+        <td class=datanormal nowrap>50mm</td>
+        <td class=datanormal nowrap>0.419</td>
+        <td class=datanormal nowrap>5.81</td>
+        <td class=datanormal nowrap>1.006</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>88-20</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.145</td>
+        <td class=datahighlight nowrap>0.61</td>
+        <td class=datahighlight nowrap>0.267</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>60-88</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.232</td>
+        <td class=datanormal nowrap>0.61</td>
+        <td class=datanormal nowrap>0.267</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>48-13</td>
+        <td class=datahighlight nowrap>50mm</td>
+        <td class=datahighlight nowrap>0.322</td>
+        <td class=datahighlight nowrap>3.48</td>
+        <td class=datahighlight nowrap>0.602</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>89-48</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>0.328</td>
+        <td class=datanormal nowrap>3.27</td>
+        <td class=datanormal nowrap>1.434</td>
+        <td class=datanormal nowrap>0.003</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>39-89</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.605</td>
+        <td class=datahighlight nowrap>3.27</td>
+        <td class=datahighlight nowrap>1.434</td>
+        <td class=datahighlight nowrap>0.005</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>45-43</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>0.485</td>
+        <td class=datanormal nowrap>1.81</td>
+        <td class=datanormal nowrap>0.794</td>
+        <td class=datanormal nowrap>0.001</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>77-73</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>2.713</td>
+        <td class=datahighlight nowrap>2.29</td>
+        <td class=datahighlight nowrap>1.004</td>
+        <td class=datahighlight nowrap>0.011</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>75-77</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.826</td>
+        <td class=datanormal nowrap>2.83</td>
+        <td class=datanormal nowrap>1.241</td>
+        <td class=datanormal nowrap>0.011</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>90-36</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>1.268</td>
+        <td class=datahighlight nowrap>3.1</td>
+        <td class=datahighlight nowrap>1.359</td>
+        <td class=datahighlight nowrap>0.009</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>75-90</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.167</td>
+        <td class=datanormal nowrap>3.1</td>
+        <td class=datanormal nowrap>1.359</td>
+        <td class=datanormal nowrap>0.008</td>
+    </tr>
+    <tr>
+        <td class=datahighlight nowrap>83-80</td>
+        <td class=datahighlight nowrap>32mm</td>
+        <td class=datahighlight nowrap>0.948</td>
+        <td class=datahighlight nowrap>0.13</td>
+        <td class=datahighlight nowrap>0.057</td>
+        <td class=datahighlight nowrap>0</td>
+    </tr>
+    <tr>
+        <td class=datanormal nowrap>85-84</td>
+        <td class=datanormal nowrap>32mm</td>
+        <td class=datanormal nowrap>1.058</td>
+        <td class=datanormal nowrap>0.4</td>
+        <td class=datanormal nowrap>0.175</td>
+        <td class=datanormal nowrap>0</td>
+    </tr>
+</table>
+<br><br>
+</body>
+</html>

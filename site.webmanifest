@@ -1,0 +1,17 @@
+{
+  "name": "Tarek Mostafa Portfolio",
+  "short_name": "Tarek Portfolio",
+  "description": "Technical irrigation engineering portfolio with downloadable CV and project packages.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ed",
+  "theme_color": "#123b35",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

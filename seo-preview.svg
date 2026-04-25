@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Tarek Mostafa irrigation portfolio social preview">
+  <defs>
+    <linearGradient id="hero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f3c31"/>
+      <stop offset="52%" stop-color="#1f6b54"/>
+      <stop offset="100%" stop-color="#2a7d92"/>
+    </linearGradient>
+    <pattern id="patternA" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="30" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+    </pattern>
+    <pattern id="patternB" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+      <line x1="0" y1="0" x2="0" y2="44" stroke="rgba(255,255,255,0.11)" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#hero)"/>
+  <rect width="1200" height="630" fill="url(#patternA)" opacity="0.6"/>
+  <rect width="1200" height="630" fill="url(#patternB)" opacity="0.45"/>
+
+  <rect x="70" y="68" width="1060" height="494" rx="28" fill="rgba(10,36,29,0.36)" stroke="rgba(255,255,255,0.2)"/>
+
+  <g transform="translate(120,138)">
+    <rect x="0" y="0" width="128" height="128" rx="28" fill="rgba(246,255,250,0.18)" stroke="rgba(246,255,250,0.35)"/>
+    <path d="M64 22C64 22 31 61 31 85C31 106 46 122 64 122C82 122 97 106 97 85C97 61 64 22 64 22Z" fill="#f2fff7"/>
+    <path d="M64 52C55 61 49 74 49 84C49 95 55 103 64 103C73 103 79 95 79 84C79 74 73 61 64 52Z" fill="#1f6b54"/>
+    <path d="M64 59V99" stroke="#daf6e8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="280" y="185" fill="#f3fff8" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="68" font-weight="700">
+    Tarek Mostafa
+  </text>
+  <text x="280" y="245" fill="#d8f5e6" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="34" font-weight="500">
+    Agricultural Engineer | Irrigation Portfolio
+  </text>
+  <text x="120" y="340" fill="#ecfff4" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="28">
+    Sprinkler and drip network design, hydraulic calculations,
+  </text>
+  <text x="120" y="385" fill="#ecfff4" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="28">
+    BOQ, technical office deliverables, and project downloads.
+  </text>
+
+  <g transform="translate(120,436)">
+    <rect x="0" y="0" width="280" height="58" rx="29" fill="rgba(242,255,247,0.16)" stroke="rgba(242,255,247,0.45)"/>
+    <text x="28" y="37" fill="#f3fff8" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="25" font-weight="600">
+      AutoCAD | RainCAD
+    </text>
+    <rect x="305" y="0" width="210" height="58" rx="29" fill="rgba(242,255,247,0.16)" stroke="rgba(242,255,247,0.45)"/>
+    <text x="342" y="37" fill="#f3fff8" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="25" font-weight="600">
+      WaterGEMS
+    </text>
+    <rect x="540" y="0" width="270" height="58" rx="29" fill="rgba(242,255,247,0.16)" stroke="rgba(242,255,247,0.45)"/>
+    <text x="572" y="37" fill="#f3fff8" font-family="Segoe UI, Tahoma, Arial, sans-serif" font-size="25" font-weight="600">
+      BOQ and Hydraulic
+    </text>
+  </g>
+</svg>

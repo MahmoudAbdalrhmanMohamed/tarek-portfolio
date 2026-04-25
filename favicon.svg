@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Tarek Mostafa portfolio icon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f3c31"/>
+      <stop offset="58%" stop-color="#1f6b54"/>
+      <stop offset="100%" stop-color="#2a7d92"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <line x1="0" y1="0" x2="0" y2="24" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#grid)" opacity="0.45"/>
+
+  <path d="M128 40C128 40 68 112 68 156C68 192 95 220 128 220C161 220 188 192 188 156C188 112 128 40 128 40Z" fill="#f2fff7"/>
+  <path d="M128 95C111 112 100 135 100 153C100 171 112 183 128 183C144 183 156 171 156 153C156 135 145 112 128 95Z" fill="#1f6b54"/>
+  <path d="M128 107V176" stroke="#d6f5e5" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="197" cy="58" r="18" fill="#d7f7ea" opacity="0.88"/>
+</svg>

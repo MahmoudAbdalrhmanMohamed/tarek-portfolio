@@ -1,0 +1,51 @@
+  Page 1                                    Sat Feb 28 23:23:58 2026
+
+******************************************************************
+*                        W A T E R G E M S                       *
+*                   Hydraulic and Water Quality                  *
+*                   Analysis for Pipe Networks                   *
+*                          Version 8.11                          *
+******************************************************************
+
+ 
+    Number of Junctions................ 4
+    Number of Reservoirs............... 1
+    Number of Tanks ................... 0
+    Number of Pipes ................... 3
+    Number of Pumps ................... 1
+    Number of Variable Speed Pumps .... 0
+    Number of Valves .................. 0
+    Headloss Formula .................. Hazen-Williams
+    Hydraulic Timestep ................ 1.00 hrs
+    Hydraulic Accuracy ................ 0.001000
+    Status Check Frequency ............ 2
+    Maximum Trials Checked ............ 10
+    Damping Limit Threshold ........... 0.000000
+    Maximum Trials .................... 40
+    Quality Analysis .................. None
+    Specific Gravity .................. 1.00
+    Relative Kinematic Viscosity ...... 0.98
+    Relative Chemical Diffusivity ..... -769230769230769150.00
+    Demand Multiplier ................. 1.00
+    Total Duration .................... 0.00 hrs
+    Reporting Criteria:
+       No Nodes
+       No Links
+ 
+[Analysis Started]
+Sat Feb 28 23:23:58 2026
+
+[Steady State]
+<   0:00:00 Balancing the network:>
+         Trial  1: relative flow change = 0.743385
+         Trial  2: relative flow change = 0.000000
+<   0:00:00 Balanced after 2 trials; relative flow change = 0.000000>
+<Flow Summary>
+Flow Supplied 63.49 gpm
+Flow Demanded 63.49 gpm
+Flow Stored 0.00 gpm
+<Flow Summary>
+   0:00:00 Reservoir 38 is emptying
+ 
+[Analysis Ended]
+Sat Feb 28 23:23:58 2026
