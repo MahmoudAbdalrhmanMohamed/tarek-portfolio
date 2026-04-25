@@ -37,7 +37,7 @@ No build step or package installation is required.
 
 Before publishing, replace the placeholder domain:
 
-- `https://tarek-mostafa-portfolio.example/`
+- `https://tarek-portfolio-weld.vercel.app/`
 
 Update it in:
 

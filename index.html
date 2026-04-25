@@ -14,7 +14,7 @@
   <meta name="geo.region" content="EG-GZ">
   <meta name="geo.placename" content="Giza">
 
-  <link rel="canonical" href="https://tarek-mostafa-portfolio.example/">
+  <link rel="canonical" href="https://tarek-portfolio-weld.vercel.app/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="shortcut icon" href="favicon.svg">
   <link rel="manifest" href="site.webmanifest">
@@ -23,9 +23,9 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Tarek Mostafa | Agricultural Engineer Irrigation Portfolio">
   <meta property="og:description" content="Premium technical portfolio with irrigation design projects, hydraulic deliverables, BOQ work, and downloadable project packages.">
-  <meta property="og:url" content="https://tarek-mostafa-portfolio.example/">
+  <meta property="og:url" content="https://tarek-portfolio-weld.vercel.app/">
   <meta property="og:site_name" content="Tarek Mostafa Portfolio">
-  <meta property="og:image" content="https://tarek-mostafa-portfolio.example/seo-preview.svg">
+  <meta property="og:image" content="https://tarek-portfolio-weld.vercel.app/seo-preview.svg">
   <meta property="og:image:type" content="image/svg+xml">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Tarek Mostafa | Agricultural Engineer Irrigation Portfolio">
   <meta name="twitter:description" content="Irrigation engineering portfolio and downloadable project packages by Tarek Mostafa.">
-  <meta name="twitter:image" content="https://tarek-mostafa-portfolio.example/seo-preview.svg">
+  <meta name="twitter:image" content="https://tarek-portfolio-weld.vercel.app/seo-preview.svg">
 
   <script type="application/ld+json">
     {
@@ -66,14 +66,14 @@
         {
           "@type": "WebSite",
           "name": "Tarek Mostafa Portfolio",
-          "url": "https://tarek-mostafa-portfolio.example/",
+          "url": "https://tarek-portfolio-weld.vercel.app/",
           "inLanguage": "en"
         },
         {
           "@type": "CollectionPage",
           "name": "Irrigation Engineering Portfolio",
           "description": "Project portfolio with downloadable irrigation engineering files, BOQ sheets, hydraulic deliverables, and technical drawings.",
-          "url": "https://tarek-mostafa-portfolio.example/"
+          "url": "https://tarek-portfolio-weld.vercel.app/"
         }
       ]
     }
@@ -283,6 +283,68 @@
       transform: translateY(-1px);
     }
 
+    .menu-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      place-items: center;
+      border: 1px solid #c9d9d0;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.78);
+      color: var(--green-900);
+      cursor: pointer;
+      transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+    }
+
+    .menu-toggle:hover {
+      transform: translateY(-2px);
+      background: #ffffff;
+      box-shadow: 0 12px 20px rgba(23, 33, 30, 0.09);
+    }
+
+    .menu-lines {
+      position: relative;
+      width: 20px;
+      height: 14px;
+      display: inline-block;
+    }
+
+    .menu-lines span {
+      position: absolute;
+      left: 0;
+      width: 20px;
+      height: 2px;
+      border-radius: 999px;
+      background: currentColor;
+      transition: transform 180ms ease, opacity 180ms ease, top 180ms ease;
+    }
+
+    .menu-lines span:nth-child(1) {
+      top: 0;
+    }
+
+    .menu-lines span:nth-child(2) {
+      top: 6px;
+    }
+
+    .menu-lines span:nth-child(3) {
+      top: 12px;
+    }
+
+    .nav.menu-open .menu-lines span:nth-child(1) {
+      top: 6px;
+      transform: rotate(45deg);
+    }
+
+    .nav.menu-open .menu-lines span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .nav.menu-open .menu-lines span:nth-child(3) {
+      top: 6px;
+      transform: rotate(-45deg);
+    }
+
     .nav-link,
     .chip-link {
       min-height: 34px;
@@ -375,13 +437,28 @@
     .hero::before {
       content: "";
       position: absolute;
+      inset: -25%;
+      z-index: -1;
+      opacity: 0.58;
+      background:
+        repeating-linear-gradient(58deg, rgba(255, 255, 255, 0.13) 0 2px, transparent 2px 34px),
+        repeating-linear-gradient(-58deg, rgba(247, 223, 186, 0.1) 0 2px, transparent 2px 42px);
+      transform: translate3d(-3%, -2%, 0);
+      animation: heroLinesDrift 11s linear infinite alternate;
+      will-change: transform;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
       inset: 0;
       z-index: -1;
-      opacity: 0.55;
+      opacity: 0.24;
       background:
-        repeating-linear-gradient(62deg, rgba(255, 255, 255, 0.09) 0 2px, transparent 2px 28px),
-        repeating-linear-gradient(-62deg, rgba(255, 255, 255, 0.06) 0 2px, transparent 2px 36px);
-      animation: patternMove 22s linear infinite;
+        linear-gradient(90deg, transparent 0 49%, rgba(255, 255, 255, 0.14) 50%, transparent 51% 100%),
+        linear-gradient(0deg, transparent 0 49%, rgba(255, 255, 255, 0.08) 50%, transparent 51% 100%);
+      background-size: 86px 86px;
+      pointer-events: none;
     }
 
     .hero-inner {
@@ -1033,12 +1110,12 @@
       }
     }
 
-    @keyframes patternMove {
+    @keyframes heroLinesDrift {
       from {
-        background-position: 0 0, 0 0;
+        transform: translate3d(-3%, -2%, 0);
       }
       to {
-        background-position: 96px -60px, -84px 58px;
+        transform: translate3d(3%, 2%, 0);
       }
     }
 
@@ -1079,16 +1156,54 @@
       }
 
       .nav {
-        align-items: flex-start;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
         top: 6px;
         left: 50%;
         width: min(100% - 24px, 1440px);
+        gap: 10px;
+      }
+
+      .menu-toggle {
+        display: grid;
       }
 
       .nav-links {
+        grid-column: 1 / -1;
         width: 100%;
         justify-content: flex-start;
+        flex-direction: column;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding-bottom: 0;
+        pointer-events: none;
+        transition: max-height 240ms ease, opacity 180ms ease, padding 180ms ease;
+      }
+
+      .nav.menu-open .nav-links {
+        max-height: 340px;
+        opacity: 1;
+        overflow: visible;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        pointer-events: auto;
+      }
+
+      .nav-link {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .language-switch {
+        grid-column: 1 / -1;
+        display: none;
+        width: fit-content;
+      }
+
+      .nav.menu-open .language-switch {
+        display: inline-flex;
       }
 
       .hero {
@@ -1187,7 +1302,14 @@
         </span>
         <span class="brand-text">Tarek Mostafa <span>Irrigation Engineering Portfolio</span></span>
       </a>
-      <div class="nav-links">
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="menu-lines" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+      <div class="nav-links" id="primary-navigation">
         <a class="nav-link" href="#about">Profile</a>
         <a class="nav-link" href="#capabilities">Capabilities</a>
         <a class="nav-link" href="#projects">Projects</a>
@@ -1837,6 +1959,34 @@
       window.addEventListener("resize", update);
     }
 
+    function initMobileMenu() {
+      const nav = document.querySelector(".nav");
+      const toggle = document.querySelector(".menu-toggle");
+      if (!nav || !toggle) return;
+
+      function setOpen(open) {
+        nav.classList.toggle("menu-open", open);
+        toggle.setAttribute("aria-expanded", String(open));
+        toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      }
+
+      toggle.addEventListener("click", () => {
+        setOpen(!nav.classList.contains("menu-open"));
+      });
+
+      nav.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => setOpen(false));
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") setOpen(false);
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.matchMedia("(min-width: 761px)").matches) setOpen(false);
+      });
+    }
+
     function initSmoothAnchors() {
       const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       if (reduced) return;
@@ -1874,6 +2024,7 @@
     initPortrait();
     initMotion();
     initScrollBar();
+    initMobileMenu();
     initSmoothAnchors();
   </script>
 </body>

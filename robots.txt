@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tarek-mostafa-portfolio.example/sitemap.xml
+Sitemap: https://tarek-portfolio-weld.vercel.app/sitemap.xml
