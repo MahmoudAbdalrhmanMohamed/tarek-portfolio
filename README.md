@@ -7,7 +7,7 @@ The portfolio presents irrigation design work, project package downloads, genera
 ## Contents
 
 - `index.html` - Main bilingual portfolio page with English/Arabic switching.
-- `profile-photo.jpg` - Hero portrait image.
+- `profile-photo.webp` - Hero portrait image.
 - `assets/garden-preview.png` - Preview generated from the Garden project layout PDF.
 - `assets/central-preview.png` - Preview generated from the Central Park project layout PDF.
 - `Tarek_Mostafa_Agricultural Engineer_CV.pdf` - Downloadable CV.
@@ -51,11 +51,4 @@ Current committed version:
 
 ```text
 1668f5c Add irrigation portfolio site
-```
-
-If the repository has no remote yet, add one before pushing:
-
-```powershell
-git remote add origin <repo-url>
-git push -u origin main
 ```
