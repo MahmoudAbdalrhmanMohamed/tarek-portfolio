@@ -15,6 +15,7 @@ The portfolio presents irrigation design work, project package downloads, genera
 - `Central park - Tarek Mostafa.rar` - Central Park project package.
 - `favicon.svg` and `seo-preview.svg` - Browser icon and social preview artwork.
 - `robots.txt`, `sitemap.xml`, `site.webmanifest` - SEO/PWA metadata files.
+- `sw.js` - Service worker for installable PWA behavior and offline app-shell caching.
 
 ## Features
 
@@ -25,6 +26,7 @@ The portfolio presents irrigation design work, project package downloads, genera
 - Responsive layout for desktop, tablet, and mobile.
 - Project showcase cards with real PDF-generated previews.
 - Package-level downloads for CV, Garden, and Central Park.
+- PWA manifest and service worker for install support on HTTPS/local server deployments.
 - SEO tags, Open Graph/Twitter preview metadata, and JSON-LD structured data.
 
 ## Preview Locally

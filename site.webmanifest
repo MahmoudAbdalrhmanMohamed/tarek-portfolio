@@ -1,17 +1,41 @@
 {
-  "name": "Tarek Mostafa Portfolio",
+  "name": "Tarek Mostafa Irrigation Portfolio",
   "short_name": "Tarek Portfolio",
-  "description": "Technical irrigation engineering portfolio with downloadable CV and project packages.",
-  "start_url": "./",
+  "description": "Installable irrigation engineering portfolio with downloadable CV and project packages.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f4ed",
-  "theme_color": "#123b35",
+  "orientation": "portrait-primary",
+  "background_color": "#06140f",
+  "theme_color": "#06140f",
+  "categories": ["portfolio", "business", "productivity"],
   "icons": [
     {
       "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Download CV",
+      "short_name": "CV",
+      "description": "Open Tarek Mostafa CV.",
+      "url": "./Tarek_Mostafa_Agricultural%20Engineer_CV.pdf"
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "Open project downloads.",
+      "url": "./index.html#projects"
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Open contact actions.",
+      "url": "./index.html#contact"
     }
   ]
 }
