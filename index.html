@@ -497,6 +497,7 @@
         animation: orb 7s ease-in-out infinite alternate;
       }
       .hero-photo {
+        display: block;
         position: relative;
         z-index: 1;
         width: 100%;
@@ -516,7 +517,6 @@
         object-position: center top;
         display: block;
         filter: saturate(1.08) contrast(1.05);
-        border-radius: 1rem;
       }
       .hero-photo:after {
         content: "";
@@ -899,11 +899,18 @@
           order: -1;
         }
         .photo-stage {
-          min-height: 430px;
+          min-height: 0;
         }
         .hero-photo,
         .hero-photo img {
-          min-height: 382px;
+          min-height: 0;
+          height: auto;
+        }
+        .hero-photo {
+          aspect-ratio: 1 / 1;
+        }
+        .hero-photo img {
+          height: 100%;
         }
         .section-head {
           display: block;
@@ -1202,9 +1209,9 @@
           <div class="visual">
             <div class="photo-stage">
               <picture
+                class="hero-photo"
                 ><source srcset="profile-photo.webp" type="image/webp" />
                 <img
-                  class="hero-photo"
                   src="profile-photo.webp"
                   alt="Tarek Mostafa portrait"
                   loading="eager"
